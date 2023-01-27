@@ -31,7 +31,7 @@ def get_randomly_spread_cities(
     return cities
 
 
-def get_routes(city_names: list[str]) -> List[Tuple[str, str]]:
+def get_routes(city_names: "list[str]") -> List[Tuple[str, str]]:
     """
     It takes a list of cities and returns a list of all possible routes between those cities.
     Equivalently, all possible routes is just all the possible pairs of the cities.
